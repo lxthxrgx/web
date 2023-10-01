@@ -1,0 +1,84 @@
+/* Стили для горизонтального меню */
+/* Стили для горизонтального меню */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Делаем список горизонтальным с использованием flexbox */
+    justify-content: center; /* Выравниваем элементы по центру горизонтально */
+  }
+  
+  .horizontal-menu li {
+    margin-right: 20px; /* Расстояние между элементами */
+  }
+  
+  .horizontal-menu li:last-child {
+    margin-right: 0; /* Убирает правый отступ у последнего элемента */
+  }
+  
+  .horizontal-menu a {
+    text-decoration: none;
+    color: rgb(51, 30, 56);
+    display: inline-block; /* Делаем ссылки блочными элементами для установки ширины и высоты */
+    padding: 10px 20px; /* Задаем отступы для кнопок */
+    border: 2px solid 	rgb(	112, 105, 147); /* Задаем обводку в виде прямоугольника и цвет обводки */
+    border-radius: 5px; /* Закругляем углы обводки */
+    transition: color 0.3s, background-color 0.3s; /* Добавляем анимацию при наведении */
+  }
+  
+  .horizontal-menu a:hover {
+    color: white;
+    background-color: rgb(	112, 105, 147); /* Изменяем цвет фона при наведении */
+  }
+  
+
+  /* Стили для таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Стили для заголовка таблицы */
+th {
+  font-weight: bold;
+}
+
+/* Стили для строк с четными номерами (зебра-стиль) */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Стили при наведении на строку таблицы */
+tr:hover {
+  background-color: #ddd;
+}
+/* Стили для футера */
+.page-footer {
+  background-color: rgb(112, 105, 147);
+  color: #fff; /* Цвет текста внутри футера */
+  text-align: center;
+  padding: 10px 0; /* Внутренние отступы сверху и снизу */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Стили для текста внутри футера */
+.footer-content p {
+  margin: 0; /* Убираем внешние отступы у параграфа */
+}
