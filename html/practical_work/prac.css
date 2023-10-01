@@ -1,0 +1,85 @@
+/* Стили для горизонтального меню */
+body, html {
+  margin: 0;
+  padding: 0;
+}
+.horizontal-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex; /* Делаем список горизонтальным с использованием flexbox */
+    justify-content: center; /* Выравниваем элементы по центру горизонтально */
+  }
+  
+  .horizontal-menu li {
+    margin-right: 20px; /* Расстояние между элементами */
+  }
+  
+  .horizontal-menu li:last-child {
+    margin-right: 0; /* Убирает правый отступ у последнего элемента */
+  }
+  
+  .horizontal-menu a {
+    text-decoration: none;
+    color: rgb(51, 30, 56);
+    display: inline-block; /* Делаем ссылки блочными элементами для установки ширины и высоты */
+    padding: 10px 20px; /* Задаем отступы для кнопок */
+    border: 2px solid 	rgb(	112, 105, 147); /* Задаем обводку в виде прямоугольника и цвет обводки */
+    border-radius: 5px; /* Закругляем углы обводки */
+    transition: color 0.3s, background-color 0.3s; /* Добавляем анимацию при наведении */
+  }
+  
+  .horizontal-menu a:hover {
+    color: white;
+    background-color: rgb(	112, 105, 147); /* Изменяем цвет фона при наведении */
+  }
+  /* Стили для прямоугольника-кнопки */
+  .practical-work {
+    background-color: rgb(	112, 105, 147);
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    width: 300px; /* Ширина прямоугольника */
+    height: 200px; /* Высота прямоугольника */
+    margin: 20px;
+}
+
+.practical-work h2 {
+    font-size: 24px;
+}
+
+.practical-work p {
+    font-size: 16px;
+}
+
+.practical-work a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: rgb(95, 85, 134);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.practical-work a:hover {
+    background-color: rgb(	112, 105, 147);
+}
+
+/* Стили для футера */
+.page-footer {
+  background-color: rgb(112, 105, 147);
+  color: #fff; /* Цвет текста внутри футера */
+  text-align: center;
+  padding: 10px 0; /* Внутренние отступы сверху и снизу */
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Стили для текста внутри футера */
+.footer-content p {
+  margin: 0; /* Убираем внешние отступы у параграфа */
+}
