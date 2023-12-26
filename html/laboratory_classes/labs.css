@@ -40,7 +40,7 @@ body, html {
   flex-wrap: wrap;
 }
 
-.lab-work1, .lab-work2 {
+.lab-work{
   background-color: rgb(112, 105, 147);
   color: #fff;
   padding: 10px;
@@ -51,15 +51,15 @@ body, html {
   margin: 20px;
 }
 
-.lab-work1 h2, .lab-work2 h2 {
+.lab-work h2{
   font-size: 24px;
 }
 
-.lab-work1 p, .lab-work2 p {
+.lab-work p{
   font-size: 16px;
 }
 
-.lab-work1 a, .lab-work2 a {
+.lab-work a{
   display: inline-block;
   margin-top: 10px;
   padding: 10px 10px;
@@ -70,7 +70,7 @@ body, html {
   transition: background-color 0.3s;
 }
 
-.lab-work1 a:hover, .lab-work2 a:hover {
+.lab-worka:hover{
   background-color: rgb(112, 105, 147);
 }
 
