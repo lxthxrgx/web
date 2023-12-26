@@ -2,69 +2,76 @@ body, html {
   margin: 0;
   padding: 0;
 }
+
 .horizontal-menu {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-  }
-  
-  .horizontal-menu li {
-    margin-right: 20px;
-  }
-  
-  .horizontal-menu li:last-child {
-    margin-right: 0;
-  }
-  
-  .horizontal-menu a {
-    text-decoration: none;
-    color: rgb(51, 30, 56);
-    display: inline-block;
-    padding: 10px 20px;
-    border: 2px solid 	rgb(	112, 105, 147);
-    border-radius: 5px;
-    transition: color 0.3s, background-color 0.3s;
-  }
-  
-  .horizontal-menu a:hover {
-    color: white;
-    background-color: rgb(	112, 105, 147);
-  }
- 
-  .practical-work {
-    background-color: rgb(	112, 105, 147);
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    border-radius: 5px;
-    width: 300px;
-    height: 200px;
-    margin: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
 }
 
-.practical-work h2 {
-    font-size: 24px;
+.horizontal-menu li {
+  margin-right: 20px;
 }
 
-.practical-work p {
-    font-size: 16px;
+.horizontal-menu li:last-child {
+  margin-right: 0;
 }
 
-.practical-work a {
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 10px;
-    background-color: rgb(95, 85, 134);
-    color: #fff;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+.horizontal-menu a {
+  text-decoration: none;
+  color: rgb(51, 30, 56);
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid rgb(112, 105, 147);
+  border-radius: 5px;
+  transition: color 0.3s, background-color 0.3s;
 }
 
-.practical-work a:hover {
-    background-color: rgb(	112, 105, 147);
+.horizontal-menu a:hover {
+  color: white;
+  background-color: rgb(112, 105, 147);
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.lab-work1, .lab-work2 {
+  background-color: rgb(112, 105, 147);
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  border-radius: 5px;
+  width: 300px;
+  height: 200px;
+  margin: 20px;
+}
+
+.lab-work1 h2, .lab-work2 h2 {
+  font-size: 24px;
+}
+
+.lab-work1 p, .lab-work2 p {
+  font-size: 16px;
+}
+
+.lab-work1 a, .lab-work2 a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 10px;
+  background-color: rgb(95, 85, 134);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.lab-work1 a:hover, .lab-work2 a:hover {
+  background-color: rgb(112, 105, 147);
 }
 
 .page-footer {
