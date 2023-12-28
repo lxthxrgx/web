@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    overflow: hidden;
+  }
+  
+  .pokemon-container {
+    width: 100vw;
+    height: 100vh;
+    background: url('your-background-image.jpg') repeat-x;
+    overflow: hidden;
+  }
+  
+  .pokemon-sprite {
+    width: 96px; /* розмір спрайту покемона */
+    height: 96px;
+    background: url('pokemon-sprite.png') 0 0;
+    animation: animatePokemon 1s steps(4) infinite; /* анімація спрайта */
+  }
+  
+  @keyframes animatePokemon {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 0 -384px; /* розмір спрайту покемона помножити на кількість кадрів (4 у цьому випадку) */
+    }
+  }
+  
